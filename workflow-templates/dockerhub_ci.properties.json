@@ -1,0 +1,5 @@
+{
+    "name": "GDD Dockerhub Workflow",
+    "description": "GDD Dockerhub CI workflow template.",
+    "iconName": "dockerhub_icon"
+}
