@@ -33,6 +33,7 @@ jobs:
         id: args
         run: |
             DOCKER_TAG="${{ matrix.DOCKER_TAG }}"
+            IMAGE_TAG="${DOCKER_TAG%%,*}"
             
             # Manipulate DOCKER_TAG to create build args
             SPARK_MAJOR_VERSION=${DOCKER_TAG:0:1}
